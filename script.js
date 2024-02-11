@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded",function (){
+  console.log("DOM fully loaded and parsed");
   const orderForm = document.getElementById("orderForm");
-  const orderButton = document.getElementById("orderButton");
 
   orderForm.addEventListener('submit',function(event){
     event.preventDefault();
@@ -13,6 +13,6 @@ document.addEventListener("DOMContentLoaded",function (){
       alert("please fill out all fields.");
       return;
     }
-    orderForm.submit();
+    this.submit();
   });
 });
