@@ -7,18 +7,21 @@
   <link rel="stylesheet" href="styles_for_order_form.css">
 </head>
 <body>
-  <div class="centering_form_box">
+  <div class="title_for_form">
+    <h1>Fastest Delivery!</h1>
+  </div>
     <div class="form_box">
+      
       <form id="orderform" action="comfirmation.html">
         <label for="name">Name:</label>
         <input type="text" id="name" name="name"
         required>
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" required>
-        <label for="password">Password:</label>
-        <input type="password" id="password" name="password" required>
+        <label for="phone">Password:</label>
+        <input type="tel" id="phone" name="phone" required>
+        <button type="submit" id="orderButton">Order-Food</button>
       </form>
     </div>
-  </div>
 </body>
 </html>
