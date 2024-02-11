@@ -31,3 +31,20 @@ form input{
   width:300px;
   padding:5px;
 }
+
+h1{
+  color:rgb(230, 230, 17);
+  font-size: 40px;
+}
+
+#orderButton{
+  margin-top: 15px;
+  padding: 8px;
+  font-size: 18px;
+  background-color: rgb(230, 230, 17);
+}
+
+/* title_for_form{
+  text-align: center;
+  width: 50%;
+} */
